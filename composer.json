@@ -1,0 +1,22 @@
+{
+	"name":"mooti/xizlr-logger",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.5.9",
+    	"psr/log": "1.0.*@dev",
+        "mooti/xizlr-testable": "1.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.1.*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Mooti\\Xizlr\\Logger\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Test\\Mooti\\Xizlr\\Logger\\": "src/"}
+    },
+    "config": {
+        "bin-dir": "bin/vendor/"
+    }
+}
